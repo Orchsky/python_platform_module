@@ -1,0 +1,39 @@
+10/11/2022 Tuesday 
+
+1. Before starting using any Python module what will be the first step? dir(platform) or help(platform)
+2. uname --> Returns OS (Operating System) info.  uname -a,  uname -r, uname -m
+3. Three (3) principles must be followed in the coding. 
+    3.1 --> Reusibility
+    3.2 --> Readibility
+    3.3 --> Modularity 
+
+Anil asks: Can WE import multiple modules at the same time? Yes you can. Including through terminal or IDE (VSCode, Pycharm)
+
+
+Apache access logs with Python 
+
+1. Once SSH into the instance to find out the OS --> cat /etc/*-release or cat /etc/os-release
+2.  cat /etc/passwd --> Returns all users present in the instance
+3. systemctl status httpd --> To check if apache is active or not 
+4. systemctl start httpd
+5. cd /var/www/html 
+6. vim index.html --> <h1> Orchsky school </h1>  and esc and wq 
+7. cd cd /var/log/httpd/ and open access_log file 
+
+We need to achieve 3 important tasks. 
+=====================================
+Requirements
+1. We need to determine from where people accessing the website 
+2. Count number of times IP repeated 
+3. Need to save output in CSV file 
+4. Build user frindly code which works in all circumstances. 
+=====================================
+4. RegEx can be used to check if a string contains the specified search pattern.
+5. Tuple --> 
+Tuple. Tuples are used to store multiple items in a single variable. Tuple is one of 4 built-in data 
+types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, 
+all with different qualities and usage. A tuple is a collection which is ordered and unchangeable.
+6. Linting -->  static code analysis tool used to flag programming errors, bugs, stylistic and suspicous 
+constracts. For python --> flake8, CloudFormation --> cfn-lint 
+7. Python formatter --> Black 
+8. https://github.com/github/super-linter 
